@@ -1,0 +1,14 @@
+# Build & OS junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Logs & captures
+wifi_logs/
+handshakes/
+*.cap
+*.pcap
+*.csv
+*.log
+*.tmp
