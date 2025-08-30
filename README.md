@@ -71,39 +71,21 @@ This tool is intended **for learning and security testing only** on your own net
 
 
 ---
+### 📸 Screenshots  
+
+**Help Menu**  
+![Help Menu](assets/help_image/Help.png)  
+
+**Attack Mode**  
+![Attack Mode](assets/attack_image/Attack.png)  
+
+**ErebusX Logo**  
+![ErebusX Logo](assets/images/erebusx.png)  
 
 
 
 
 
-## 🖼️ صور من الأداة (Screenshots)
-
-
-
-
-
-### 📌 واجهة المساعدة (Help Menu)
-
-
-![Help Menu](./assets/Help%20image/Help.png)
-
-
-
-
-
-### 📌 وضع الهجوم (Attack Mode)
-
-
-![Attack Mode](./assets/attack%20image/Attack.png)
-
-
-
-
-
-### 📌 شعار ErebusX (Logo)
-
-
-![ErebusX Logo](./assets/images/ErebusX.png)
 
 
 
